@@ -26,4 +26,4 @@ CI = "https://github.com/ftnext/llm-tavily/actions"
 tavily = "llm_tavily"
 
 [project.optional-dependencies]
-test = ["pytest"]
+test = ["pytest", "respx"]
