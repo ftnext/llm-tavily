@@ -15,7 +15,15 @@ llm install llm-tavily
 ```
 ## Usage
 
-Usage instructions go here.
+**prerequisite**: Tavily API key (Free, No credit card, 1,000 API credits / month)  
+https://www.tavily.com/#pricing  
+https://blog.tavily.com/getting-started-with-the-tavily-search-api/
+
+```bash
+export LLM_TAVILY_KEY=your_api_key_here
+
+llm -m qa-tavily 'Who is Leo Messi?'
+```
 
 ## Development
 
